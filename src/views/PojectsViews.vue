@@ -25,6 +25,9 @@ import ProjectCard from '@/components/ProjectCard.vue';
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
+  height: calc(100vh - 100px); 
+  display: flex;
+  flex-direction: column;
 }
 
 .projects-list {
@@ -33,5 +36,7 @@ import ProjectCard from '@/components/ProjectCard.vue';
   gap: 20px;
   justify-content: center;
   margin-top: 20px;
-}
+  overflow-y: auto;
+  padding: 10px;
+  }
 </style>
