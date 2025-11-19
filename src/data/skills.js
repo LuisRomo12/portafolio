@@ -32,6 +32,40 @@ export const technicalSkills = [
   },
 ];
 
+// AGREGA ESTO 👇
+export const experience = [
+  { 
+    id: 1, 
+    group: 'Lenguajes', 
+    names: ['JavaScript', 'PHP', 'TypeScript', 'Python'] 
+  },
+  { 
+    id: 2, 
+    group: 'Desarrollo Web', 
+    names: ['HTML5', 'CSS3'] 
+  },
+  { 
+    id: 3, 
+    group: 'Frameworks', 
+    names: ['Ionic', 'Angular', 'Vue.js', 'React Native'] 
+  },
+  { 
+    id: 4, 
+    group: 'Bases de Datos', 
+    names: ['MongoDB', 'MySQL'] 
+  },
+  { 
+    id: 5, 
+    group: 'Control de Versiones', 
+    names: ['Git', 'GitHub'] 
+  },
+  { 
+    id: 6, 
+    group: 'Diseño UI/UX', 
+    names: ['Figma'] 
+  },
+];
+
 // Aptitudes de tu CV
 export const softSkills = [
   { id: 1, name: 'Compromiso social' },

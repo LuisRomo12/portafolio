@@ -3,6 +3,7 @@
 import HomeView from './views/HomeView.vue'
 import PojectsViews from './views/PojectsViews.vue'
 import ContactView from './views/ContactView.vue' // <-- 1. IMPORTA EL NUEVO
+import ExperienceView from './views/ExperienceView.vue'
 </script>
 
 <template>
@@ -10,13 +11,17 @@ import ContactView from './views/ContactView.vue' // <-- 1. IMPORTA EL NUEVO
     <nav class="navbar">
       <a href="#inicio">Inicio</a>
       <a href="#proyectos">Proyectos</a>
-      <a href="#contacto">Contacto</a> </nav>
+      <a href="#contacto">Contacto</a> 
+      <a href="#experiencia">Experiencia</a>
+    </nav>
   </header>
 
   <main>
     <HomeView id="inicio" />
     <PojectsViews id="proyectos" />
-    <ContactView id="contacto" /> </main>
+    <ContactView id="contacto" /> 
+    <ExperienceView id="experiencia" />
+  </main>
 
 </template>
 
